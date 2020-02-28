@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+# Branching Policies
 
-You can use the [editor on GitHub](https://github.com/MarcRosellH/BranchingPolicies/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+“I am <https://www.linkedin.com/in/marc-rosell-hernandez-a19188150/>(Marc Rosell), student of the
+<https://www.citm.upc.edu/ing/estudis/graus-videojocs/>(Bachelor’s Degree in
+Video Games by UPC at CITM). This content is generated for the second year’s
+subject Project 2, under supervision of lecturer
+<https://www.linkedin.com/in/mgarrigo/>(Marc Garrigó).”
 
 ### Markdown
 
