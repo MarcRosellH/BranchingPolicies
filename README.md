@@ -1,10 +1,6 @@
 # Branching Policies
 
-“I am <https://www.linkedin.com/in/marc-rosell-hernandez-a19188150/>(Marc Rosell), student of the
-<https://www.citm.upc.edu/ing/estudis/graus-videojocs/>(Bachelor’s Degree in
-Video Games by UPC at CITM). This content is generated for the second year’s
-subject Project 2, under supervision of lecturer
-<https://www.linkedin.com/in/mgarrigo/>(Marc Garrigó).”
+“I am [Marc Rosell](https://www.linkedin.com/in/marc-rosell-hernandez-a19188150/), student of the [Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s subject Project 2, under supervision of lecturer [Marc Garrigó](https://www.linkedin.com/in/mgarrigo/).”
 
 ### Markdown
 
