@@ -88,7 +88,7 @@ Hotfix branches are like release branches, to prepare a new release,yet unplanne
 * Merge back into:
 **develop and master branches**
 
-## AppVeyor, Jankins, Travis CI & others
+## AppVeyor, Jenkins, Travis CI & others
 Applications like **AppVeyor, Travis CI, Jenkins, GitLab** and others are made to help in the QA process. When connected with Github, their servers generate a build version of the project (need to be adjusted by the user).
 If it is configured to create the builds only when the commits are made in the **release, master and hotfix branches**, the QA testers don't need to do it by themselves and can start directly to test it.
 
