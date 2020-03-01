@@ -10,12 +10,18 @@ Branching Policies are a set of rules created to help teams protect their branch
 To see the benefits of using Branching Policies, we will take a deeper look to two different ways of working with branches. The first one being a light branch policy and the second one with a much more strict policies, that is used by companies.
 
 ### Trunk-Based Development
-On one hand, the Trunk-Based Development is very similar to the one used in previous subjects, but using 2 branches. One branch is where the entire team **works in the development** of the features and separately has the branch for **releases**. Using this structure, when someone checks-in with wrong code it must be fixed in order to continue working (the entire team must wait for a fix). Now a days, this policy is outdated by the Feature Branching Development.
+On one hand, the Trunk-Based Development is very similar to the one used in previous subjects, but using 2 branches. One branch is where the entire team **works in the development** of the features and separately has the branch for **releases**. Using this structure, when someone checks-in with wrong code it must be fixed in order to continue working (the entire team must wait for a fix). Now a days, this policy is outdated by the **Feature Branching Development**.
 
 There are two types of Trunk-Based Development:
 * **Trunk-Based Development for Smaller Teams:**
 ![trunk-dev](https://trunkbaseddevelopment.com/trunk1b.png)
 
+In this method, there are usually a small amout of programmers, each one **commiting straight into the trunk** or master. All the implementations must pass a pre-integration step, **running the build first**.
+
+* **Scaled Trunk-Based Development:**
+![scaled-trunk-dev](https://trunkbaseddevelopment.com/trunk1c.png)
+
+This method is best done with **short-lived feature branches**, for example: one person working for a maximum of two days. Then should pass a **Pull-Request style code-review**, before merging into the trunk.
 
 
 ### Different approaches (images)
