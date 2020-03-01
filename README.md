@@ -9,22 +9,22 @@ Branching Policies are a set of rules created to help teams protect their branch
 
 To see the benefits of using Branching Policies, we will take a deeper look to two different ways of working with branches. The first one being a light branch policy and the second one with a much more strict policies, that is used by companies.
 
-### Trunk-Based Development
+## Trunk-Based Development
 On one hand, the Trunk-Based Development is very similar to the one used in previous subjects, but using 2 branches. One branch is where the entire team **works in the development** of the features and separately has the branch for **releases**. Using this structure, when someone checks-in with wrong code it must be fixed in order to continue working (the entire team must wait for a fix). Now a days, this policy is outdated by the **Feature Branching Development**.
 
 There are two types of Trunk-Based Development:
-* **Trunk-Based Development for Smaller Teams:**
+### Trunk-Based Development for Smaller Teams:
 ![trunk-dev](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/trunk.png?raw=true)
 
 In this method, there are usually a small amout of programmers, each one **commiting straight into the trunk** or master. All the implementations must pass a pre-integration step, **running the build first**.
 
-* **Scaled Trunk-Based Development:**
+### Scaled Trunk-Based Development:
 ![scaled-trunk-dev](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/scaled-trunk.png?raw=true)
 
 This method is best done with **short-lived feature branches**, for example: one person working for a maximum of two days. Then should pass a **Pull-Request style code-review**, before merging into the trunk.
 
 
-### Feature Branching Development
+## Feature Branching Development
 On the other hand there is the Feature Branching Development, in which all the features and implementations are made **external to the main branch** and only integrated when they are completed, so the problem of waiting for the errors to be solved on the Trunk-Based Development is unexistant. In spite there are **other inconceniences**. For example, as the feature branches are used for a larger amout of time, if it isn't up to date, it could end up giving problems when merging with the main branch.
 
 **Git Flow** is a branch policy for the Feature Branching Development:
