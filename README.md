@@ -21,16 +21,16 @@
 
 
 ## Sources
-*[Administrating a Repository - Protected Branches](https://help.github.com/en/github/administering-a-repository/about-protected-branches)
+[Administrating a Repository - Protected Branches](https://help.github.com/en/github/administering-a-repository/about-protected-branches)
 
-*[Collaborating with Issues and Pull Requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests)
+[Collaborating with Issues and Pull Requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests)
 
-*[A Successful Git Branching Model](https://nvie.com/posts/a-successful-git-branching-model/)
+[A Successful Git Branching Model](https://nvie.com/posts/a-successful-git-branching-model/)
 
-*[Git Branching Workflow](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
+[Git Branching Workflow](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
 
-*[Azure Branching Policies](https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops)
+[Azure Branching Policies](https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops)
 
-*[Azure Pull Requests](https://docs.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=azure-devops&tabs=new-nav#complete-the-pull-request)
+[Azure Pull Requests](https://docs.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=azure-devops&tabs=new-nav#complete-the-pull-request)
 
-*[AppVeyor](https://www.appveyor.com/docs/branches/)
+[AppVeyor](https://www.appveyor.com/docs/branches/)
