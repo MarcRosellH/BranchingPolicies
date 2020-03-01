@@ -10,6 +10,11 @@ Branching Policies are a set of rules created to help teams protect their branch
 To see the benefits of using Branching Policies, we will take a deeper look to two different ways of working with branches. The first one being a light branch policy and the second one with a much more strict policies, that is used by companies.
 
 ### Trunk-Based Development
+On one hand, the Trunk-Based Development is very similar to the one used in previous subjects, but using 2 branches. One branch is where the entire team **works in the development** of the features and separately has the branch for **releases**. Using this structure, when someone checks-in with wrong code it must be fixed in order to continue working (the entire team must wait for a fix). Now a days, this policy is outdated by the Feature Branching Development.
+
+There are two types of Trunk-Based Development:
+* Trunk-Based Development for Smaller Teams:
+![trunk-dev](https://trunkbaseddevelopment.com/trunk1b.png)
 
 
 
@@ -47,3 +52,5 @@ To see the benefits of using Branching Policies, we will take a deeper look to t
 [Git Branching Workflow](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
 
 [IT Hare](http://ithare.com/version-control-branching-for-gamedev/)
+
+[Trunk-Based Development](https://trunkbaseddevelopment.com/)
