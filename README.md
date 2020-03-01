@@ -92,10 +92,10 @@ Hotfix branches are like release branches, to prepare a new release,yet unplanne
 Applications like **AppVeyor, Travis CI, Jenkins, GitLab** and others are made to help in the QA process. When connected with Github, their servers generate a build version of the project (need to be adjusted by the user).
 If it is configured to create the builds only when the commits are made in the **release, master and hotfix branches**, the QA testers don't need to do it by themselves and can start directly to test it.
 
-[jenkins](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/jenkins.png?raw=true)
+![jenkins](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/jenkins.png?raw=true)
 
 ## Homework 
-* In groups, structure your project using the Git Flow structure and check the rules that Github gives us, and the optional ones.
+* In groups, structure your project using the Git Flow structure.
 
 ## Sources
 [A Successful Git Branching Model](https://nvie.com/posts/a-successful-git-branching-model/)
