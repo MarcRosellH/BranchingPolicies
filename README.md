@@ -14,12 +14,12 @@ On one hand, the Trunk-Based Development is very similar to the one used in prev
 
 There are two types of Trunk-Based Development:
 * **Trunk-Based Development for Smaller Teams:**
-![trunk-dev](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/trunk.png)
+![trunk-dev](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/trunk.png?raw=true)
 
 In this method, there are usually a small amout of programmers, each one **commiting straight into the trunk** or master. All the implementations must pass a pre-integration step, **running the build first**.
 
 * **Scaled Trunk-Based Development:**
-![scaled-trunk-dev](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/scaled-trunk.png)
+![scaled-trunk-dev](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/scaled-trunk.png?raw=true)
 
 This method is best done with **short-lived feature branches**, for example: one person working for a maximum of two days. Then should pass a **Pull-Request style code-review**, before merging into the trunk.
 
@@ -28,7 +28,15 @@ This method is best done with **short-lived feature branches**, for example: one
 On the other hand there is the Feature Branching Development, in which all the features and implementations are made **external to the main branch** and only integrated when they are completed, so the problem of waiting for the errors to be solved on the Trunk-Based Development is unexistant. In spite there are **other inconceniences**. For example, as the feature branches are used for a larger amout of time, if it isn't up to date, it could end up giving problems when merging with the main branch.
 
 **Git Flow** is a branch policy for the Feature Branching Development:
+![gitflow](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/gitflow.png?raw=true)
 
+This policy arises from the needs of organising a team of people to work in a same project and standards that may not have clear instructions on how to act in every situation that may come up, making it almost impossibl to work. So that, this set of rules, **protect the main branches**, making the administrator the only who can manipulate it, preventing possible repository damages.
+The memebers of the team can pull request and merge the branches on which they work (feature to develop), but in terms of **develop, release, hotfixes and master branches** the administrator is the only one who with permission to allow modifications to the main branches. Therefore, there might be more than one administrator. A nice method would be:
+
+* Lead Programmer managing develop and hotfixes branches.
+* QA Lead managing releases and master branches.
+
+This will lead to a better QA testing using the Git Flow policies.
 
 ## Explain very clearly the use for each case
 
