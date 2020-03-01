@@ -8,9 +8,6 @@
 ### Description of the selected approach
 
 
-## Have all teams setup gitflow structure for their repositories
-
-
 ## Explain very clearly the use for each case
 
 
@@ -19,7 +16,7 @@
 
 ## Homework 
 * Create a Github Project and put to test.
-* Think and create the barnching system  for your project.
+* Think and create the barnching system for your project repository.
 
 ## Sources
 [Administrating a Repository - Protected Branches](https://help.github.com/en/github/administering-a-repository/about-protected-branches)
