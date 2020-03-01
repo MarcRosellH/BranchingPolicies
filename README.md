@@ -38,15 +38,44 @@ The memebers of the team can pull request and merge the branches on which they w
 
 This will lead to a better QA testing using the Git Flow policies.
 
-## Explain very clearly the use for each case
+The other memebers of the team interact with these main branches by **branching off from develop** and creating their feature branch, in which they implement it and, after passing all needed verifications, **merge it back** to the develop branch creating a pull request.
 
+### Extra Rules
+![rules](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/policies-config.PNG?raw=true)
+
+Github, when the branches have been created, allows to **add rules** to the branches, for a better working of it and the team. For example, the verification that has to pass to complete a pull request, mentioned earlier.
+
+To add these rules go to your repository then: **Settings>Branches>Add Rule**
+
+## Git Flow Structure In Detail
+The generic structure is:
+![gitflow-structure](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/gitflow-structure.png?raw=true)
+
+We can distiguish the next branches:
+### Master and Develop Branches
+In the Git Flow structure, these two branches are paraller and infinite, since their creation at the beginning of the project until its end. The master branch is only updated with the main stable versions of the project.
+![develop-and-master](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/master-develop.png?raw=true)
+
+### Feature Branches
+The feature branches are where the developers work on their own respective fields and tasks to develop different parts of the release in which the whole team is working. It is needed for these branches to keep updated with all the progress done in the develop branch, to avoid problems while merging.
+
+![feature](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/feature.png?raw=true)
+
+* Branch off from:
+** develop branch**
+* Merge back into:
+** develop branch**
+
+### Release Branch
+
+
+### Master and Develop
 
 ## How to structure QA around gitflow ?
 
 
 ## Homework 
-* Create a Github Project and put to test.
-* Think and create the barnching system for your project repository.
+* In groups, structure your project using the Git Flow structure and check the rules that Github gives us, and the optional ones.
 
 ## Sources
 [A Successful Git Branching Model](https://nvie.com/posts/a-successful-git-branching-model/)
