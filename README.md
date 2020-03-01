@@ -62,9 +62,9 @@ The feature branches are where the developers work on their own respective field
 ![feature](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/feature.png?raw=true)
 
 * Branch off from:
-** develop branch**
+**develop branch**
 * Merge back into:
-** develop branch**
+**develop branch**
 
 ### Release Branch
 
