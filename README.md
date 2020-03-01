@@ -42,7 +42,7 @@ This will lead to a better QA testing using the Git Flow policies.
 
 The other memebers of the team interact with these main branches by **branching off from develop** and creating their feature branch, in which they implement it and, after passing all needed verifications, **merge it back** to the develop branch creating a pull request.
 
-The **QA testing** is done in the **release branch** if it's a low grade bug, fixing it in this same branch and then merging back the branch into the develop branch. If is a high grade bug then it would imply the creation of a **hotfix branch**.
+The **QA testing** is done in the **release branch**, fixing it in this same branch and then merging back the branch into the develop and master branch. If it's found after its release then it would imply the creation of a **hotfix branch**.
 
 ### Extra Rules
 ![rules](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/policies-config.PNG?raw=true)
