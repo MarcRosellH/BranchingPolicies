@@ -4,10 +4,12 @@
 
 ## Concept
 
-Branching methods in projects help teams to work in parallel and to solve any problem or implement features in a simpler way, so that, there are policies to maintain control over all of them.
+Branching methods in projects help teams to work in parallel and to solve any problem or implement features in a simpler way, so that, there are policies **to maintain control** over all of them.
 Branching Policies are a set of rules created to help teams protect their branches of development. These policies enforce team's code quality and management. 
 
-To see the benefits of using Branching Policies, we will take a deeper look to two different ways of working with branches. The first one being a light branch policy and the second one with a much more strict policies, that is used by companies.
+![branches](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/baixa.png?raw=true)
+
+To see the benefits of using Branching Policies, we will take a deeper look to two different ways of working with branches. The first one being a light branch policy, the **Trunk-Based Development**, and the second one with a much more strict policies, that is used by companies, the **Feature Branching Development**.
 
 ## Trunk-Based Development
 On one hand, the Trunk-Based Development is very similar to the one used in previous subjects, but using 2 branches. One branch is where the entire team **works in the development** of the features and separately has the branch for **releases**. Using this structure, when someone checks-in with wrong code it must be fixed in order to continue working (the entire team must wait for a fix). Now a days, this policy is outdated by the **Feature Branching Development**.
@@ -25,9 +27,9 @@ This method is best done with **short-lived feature branches**, for example: one
 
 
 ## Feature Branching Development
-On the other hand there is the Feature Branching Development, in which all the features and implementations are made **external to the main branch** and only integrated when they are completed, so the problem of waiting for the errors to be solved on the Trunk-Based Development is unexistant. In spite there are **other inconceniences**. For example, as the feature branches are used for a larger amout of time, if it isn't up to date, it could end up giving problems when merging with the main branch.
+On the other hand there is the Feature Branching Development, in which all the features and implementations are made **external to the main branch** and only integrated when they are completed, so the problem of waiting for the errors to be solved on the Trunk-Based Development is unexistant. In spite there are **other inconveniences**. For example, as the feature branches are used for a larger amout of time, if it isn't up to date, it could end up giving problems when merging with the main branch.
 
-**Git Flow** is a branch policy for the Feature Branching Development:
+**Gitflow** is a branch policy for the Feature Branching Development:
 ![gitflow](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/gitflow.png?raw=true)
 
 This policy arises from the needs of organising a team of people to work in a same project and standards that may not have clear instructions on how to act in every situation that may come up, making it almost impossibl to work. So that, this set of rules, **protect the main branches**, making the administrator the only who can manipulate it, preventing possible repository damages.
@@ -36,11 +38,11 @@ The memebers of the team can pull request and merge the branches on which they w
 * Lead Programmer managing develop and hotfixes branches.
 * QA Lead managing releases and master branches.
 
-This will lead to a better QA testing using the Git Flow policies.
+This will lead to a better QA testing using the Gitflow policies.
 
 The other memebers of the team interact with these main branches by **branching off from develop** and creating their feature branch, in which they implement it and, after passing all needed verifications, **merge it back** to the develop branch creating a pull request.
 
-The **QA testing** is done in the **release branch** if it's a low grade bug, fixing it in this same branch and then merging back the branch into the develop branch. If is a high grade bug then it would imply the creation of a **hotfix branch**.
+The **QA testing** is done in the **release branch**, fixing it in this same branch and then merging back the branch into the develop and master branch. If it's found after its release then it would imply the creation of a **hotfix branch**.
 
 ### Extra Rules
 ![rules](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/policies-config.PNG?raw=true)
@@ -49,13 +51,13 @@ Github, when the branches have been created, allows to **add rules** to the bran
 
 To add these rules go to your repository then: **Settings>Branches>Add Rule**
 
-## Git Flow Structure In Detail
+## Gitflow Structure In Detail
 The generic structure is:
 ![gitflow-structure](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/gitflow-structure.png?raw=true)
 
 We can distiguish the next branches:
 ### Master and Develop Branches
-In the Git Flow structure, these two branches are parallel and infinite, since their creation at the beginning of the project until its end. The master branch is **only updated with the main stable versions** of the project.
+In the Gitflow structure, these two branches are parallel and infinite, since their creation at the beginning of the project until its end. The master branch is **only updated with the main stable versions** of the project.
 ![develop-and-master](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/master-develop.png?raw=true)
 
 ### Feature Branches
@@ -95,7 +97,7 @@ If it is configured to create the builds only when the commits are made in the *
 ![jenkins](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/jenkins.png?raw=true)
 
 ## Homework 
-* In groups, structure your project using the Git Flow structure.
+* In groups, structure your project using the Gitflow structure.
 
 ## Sources
 [A Successful Git Branching Model](https://nvie.com/posts/a-successful-git-branching-model/)
