@@ -14,12 +14,12 @@ On one hand, the Trunk-Based Development is very similar to the one used in prev
 
 There are two types of Trunk-Based Development:
 * **Trunk-Based Development for Smaller Teams:**
-![trunk-dev](https://trunkbaseddevelopment.com/trunk1b.png)
+![trunk-dev](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/trunk.png)
 
 In this method, there are usually a small amout of programmers, each one **commiting straight into the trunk** or master. All the implementations must pass a pre-integration step, **running the build first**.
 
 * **Scaled Trunk-Based Development:**
-![scaled-trunk-dev](https://trunkbaseddevelopment.com/trunk1c.png)
+![scaled-trunk-dev](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/scaled-trunk.png)
 
 This method is best done with **short-lived feature branches**, for example: one person working for a maximum of two days. Then should pass a **Pull-Request style code-review**, before merging into the trunk.
 
