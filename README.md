@@ -17,8 +17,9 @@
 ## How to structure QA around gitflow ?
 
 
-## Class Task 
-
+## Homework 
+* Create a Github Project and put to test.
+* Think and create the barnching system  for your project.
 
 ## Sources
 [Administrating a Repository - Protected Branches](https://help.github.com/en/github/administering-a-repository/about-protected-branches)
