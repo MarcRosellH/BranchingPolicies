@@ -24,8 +24,10 @@ In this method, there are usually a small amout of programmers, each one **commi
 This method is best done with **short-lived feature branches**, for example: one person working for a maximum of two days. Then should pass a **Pull-Request style code-review**, before merging into the trunk.
 
 
-### Different approaches (images)
-### Description of the selected approach
+### Feature Branching Development
+On the other hand there is the Feature Branching Development, in which all the features and implementations are made **external to the main branch** and only integrated when they are completed, so the problem of waiting for the errors to be solved on the Trunk-Based Development is unexistant. In spite there are **other inconceniences**. For example, as the feature branches are used for a larger amout of time, if it isn't up to date, it could end up giving problems when merging with the main branch.
+
+**Git Flow** is a branch policy for the Feature Branching Development:
 
 
 ## Explain very clearly the use for each case
