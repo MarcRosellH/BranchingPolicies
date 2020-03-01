@@ -29,7 +29,7 @@ This method is best done with **short-lived feature branches**, for example: one
 ## Feature Branching Development
 On the other hand there is the Feature Branching Development, in which all the features and implementations are made **external to the main branch** and only integrated when they are completed, so the problem of waiting for the errors to be solved on the Trunk-Based Development is unexistant. In spite there are **other inconceniences**. For example, as the feature branches are used for a larger amout of time, if it isn't up to date, it could end up giving problems when merging with the main branch.
 
-**Git Flow** is a branch policy for the Feature Branching Development:
+**Gitflow** is a branch policy for the Feature Branching Development:
 ![gitflow](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/gitflow.png?raw=true)
 
 This policy arises from the needs of organising a team of people to work in a same project and standards that may not have clear instructions on how to act in every situation that may come up, making it almost impossibl to work. So that, this set of rules, **protect the main branches**, making the administrator the only who can manipulate it, preventing possible repository damages.
@@ -51,13 +51,13 @@ Github, when the branches have been created, allows to **add rules** to the bran
 
 To add these rules go to your repository then: **Settings>Branches>Add Rule**
 
-## Git Flow Structure In Detail
+## Gitflow Structure In Detail
 The generic structure is:
 ![gitflow-structure](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/gitflow-structure.png?raw=true)
 
 We can distiguish the next branches:
 ### Master and Develop Branches
-In the Git Flow structure, these two branches are parallel and infinite, since their creation at the beginning of the project until its end. The master branch is **only updated with the main stable versions** of the project.
+In the Gitflow structure, these two branches are parallel and infinite, since their creation at the beginning of the project until its end. The master branch is **only updated with the main stable versions** of the project.
 ![develop-and-master](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/master-develop.png?raw=true)
 
 ### Feature Branches
