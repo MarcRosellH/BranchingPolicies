@@ -28,16 +28,20 @@ To see the benefits of using Branching Policies, we will take a deeper look to t
 * Think and create the barnching system for your project repository.
 
 ## Sources
-[Administrating a Repository - Protected Branches](https://help.github.com/en/github/administering-a-repository/about-protected-branches)
-
-[Collaborating with Issues and Pull Requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests)
-
 [A Successful Git Branching Model](https://nvie.com/posts/a-successful-git-branching-model/)
 
-[Git Branching Workflow](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
+[Administrating a Repository - Protected Branches](https://help.github.com/en/github/administering-a-repository/about-protected-branches)
+
+[AppVeyor](https://www.appveyor.com/docs/branches/)
 
 [Azure Branching Policies](https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops)
 
 [Azure Pull Requests](https://docs.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=azure-devops&tabs=new-nav#complete-the-pull-request)
 
-[AppVeyor](https://www.appveyor.com/docs/branches/)
+[Collaborating with Issues and Pull Requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests)
+
+[DevOpsNet](https://devopsnet.com/2012/11/01/exciting-branching/)
+
+[Git Branching Workflow](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
+
+[IT Hare](http://ithare.com/version-control-branching-for-gamedev/)
