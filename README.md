@@ -40,6 +40,8 @@ This will lead to a better QA testing using the Git Flow policies.
 
 The other memebers of the team interact with these main branches by **branching off from develop** and creating their feature branch, in which they implement it and, after passing all needed verifications, **merge it back** to the develop branch creating a pull request.
 
+The **QA testing** is done in the **release branch** if it's a low grade bug, fixing it in this same branch and then merging back the branch into the develop branch. If is a high grade bug then it would imply the creation of a **hotfix branch**.
+
 ### Extra Rules
 ![rules](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/policies-config.PNG?raw=true)
 
@@ -53,11 +55,11 @@ The generic structure is:
 
 We can distiguish the next branches:
 ### Master and Develop Branches
-In the Git Flow structure, these two branches are paraller and infinite, since their creation at the beginning of the project until its end. The master branch is only updated with the main stable versions of the project.
+In the Git Flow structure, these two branches are parallel and infinite, since their creation at the beginning of the project until its end. The master branch is **only updated with the main stable versions** of the project.
 ![develop-and-master](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/master-develop.png?raw=true)
 
 ### Feature Branches
-The feature branches are where the developers work on their own respective fields and tasks to develop different parts of the release in which the whole team is working. It is needed for these branches to keep updated with all the progress done in the develop branch, to avoid problems while merging.
+The feature branches are where the developers work on their own respective fields and tasks to develop different parts of the release in which the whole team is working. It is needed for these branches to **keep updated** with all the progress done in the develop branch, to avoid problems while merging.
 
 ![feature](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/feature.png?raw=true)
 
@@ -67,12 +69,30 @@ The feature branches are where the developers work on their own respective field
 **develop branch**
 
 ### Release Branch
+Since all the features developed are in the develop branch, the release branch will serve as a support branch for the upcoming release. In this branch is where the **QA testing** is done. The issues are reported and **are solved in this same branch**. When the bugs are fixed, it is needed to **merge back to the develop branch**. Once it's all tested, almost everything fixed and confirmed to release, the metadata of the project as the version, is prepared. Then the branch merges with the master branch for the release launch into the master branch.
 
+![release](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/release.png?raw=true)
 
-### Master and Develop
+* Branch off from:
+**develop branch**
+* Merge back into:
+**develop and master branches**
 
-## How to structure QA around gitflow ?
+### Hotfix Branch
+Hotfix branches are like release branches, to prepare a new release,yet unplanned. Is is created when a **critical bug in a production release** has been detected and must be immediately solved. One member can work on the problem while the rest keep working on their feature branches. Once the bug is solved, the tag must be changed, and it must merge into master and develop branches.
 
+![hotfix](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/hotfix.png?raw=true)
+
+* Branch off from:
+**master branch**
+* Merge back into:
+**develop and master branches**
+
+## AppVeyor, Jankins, Travis CI & others
+Applications like **AppVeyor, Travis CI, Jenkins, GitLab** and others are made to help in the QA process. When connected with Github, their servers generate a build version of the project (need to be adjusted by the user).
+If it is configured to create the builds only when the commits are made in the **release, master and hotfix branches**, the QA testers don't need to do it by themselves and can start directly to test it.
+
+[jenkins](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/jenkins.png?raw=true)
 
 ## Homework 
 * In groups, structure your project using the Git Flow structure and check the rules that Github gives us, and the optional ones.
@@ -97,5 +117,9 @@ The feature branches are where the developers work on their own respective field
 [Git Branching Workflow](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
 
 [IT Hare](http://ithare.com/version-control-branching-for-gamedev/)
+
+[Jenkins](https://jenkins.io/doc/)
+
+[Travis CI](https://docs.travis-ci.com/)
 
 [Trunk-Based Development](https://trunkbaseddevelopment.com/)
