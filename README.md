@@ -38,7 +38,7 @@ The memebers of the team can pull request and merge the branches on which they w
 * Lead Programmer managing develop and hotfixes branches.
 * QA Lead managing releases and master branches.
 
-This will lead to a better QA testing using the Git Flow policies.
+This will lead to a better QA testing using the Gitflow policies.
 
 The other memebers of the team interact with these main branches by **branching off from develop** and creating their feature branch, in which they implement it and, after passing all needed verifications, **merge it back** to the develop branch creating a pull request.
 
