@@ -97,7 +97,7 @@ If it is configured to create the builds only when the commits are made in the *
 ![jenkins](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/jenkins.png?raw=true)
 
 ## Homework 
-* In groups, structure your project using the Git Flow structure.
+* In groups, structure your project using the Gitflow structure.
 
 ## Sources
 [A Successful Git Branching Model](https://nvie.com/posts/a-successful-git-branching-model/)
