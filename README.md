@@ -2,8 +2,17 @@
 
 “I am [Marc Rosell](https://www.linkedin.com/in/marc-rosell-hernandez-a19188150/), student of the [Bachelor’s Degree in Video Games by UPC at CITM](https://www.citm.upc.edu/ing/estudis/graus-videojocs/). This content is generated for the second year’s subject Project 2, under supervision of lecturer [Marc Garrigó](https://www.linkedin.com/in/mgarrigo/).”
 
-## Explain the concept, the benefits and possible drawbacks
-### Intro to the problem
+## Concept
+
+Branching methods in projects help teams to work in parallel and to solve any problem or implement features in a simpler way, so that, there are policies to maintain control over all of them.
+Branching Policies are a set of rules created to help teams protect their branches of development. These policies enforce team's code quality and management. 
+
+To see the benefits of using Branching Policies, we will take a deeper look to two different ways of working with branches. The first one being a light branch policy and the second one with a much more strict policies, that is used by companies.
+
+### Trunk-Based Development
+
+
+
 ### Different approaches (images)
 ### Description of the selected approach
 
