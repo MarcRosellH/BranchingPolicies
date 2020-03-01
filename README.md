@@ -27,7 +27,7 @@ This method is best done with **short-lived feature branches**, for example: one
 
 
 ## Feature Branching Development
-On the other hand there is the Feature Branching Development, in which all the features and implementations are made **external to the main branch** and only integrated when they are completed, so the problem of waiting for the errors to be solved on the Trunk-Based Development is unexistant. In spite there are **other inconceniences**. For example, as the feature branches are used for a larger amout of time, if it isn't up to date, it could end up giving problems when merging with the main branch.
+On the other hand there is the Feature Branching Development, in which all the features and implementations are made **external to the main branch** and only integrated when they are completed, so the problem of waiting for the errors to be solved on the Trunk-Based Development is unexistant. In spite there are **other inconveniences**. For example, as the feature branches are used for a larger amout of time, if it isn't up to date, it could end up giving problems when merging with the main branch.
 
 **Gitflow** is a branch policy for the Feature Branching Development:
 ![gitflow](https://github.com/MarcRosellH/BranchingPolicies/blob/master/docs/gitflow.png?raw=true)
