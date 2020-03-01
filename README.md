@@ -34,6 +34,8 @@ To see the benefits of using Branching Policies, we will take a deeper look to t
 
 [AppVeyor](https://www.appveyor.com/docs/branches/)
 
+[Atlassian Bitbucket](https://www.atlassian.com/git/tutorials/comparing-workflows)
+
 [Azure Branching Policies](https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies?view=azure-devops)
 
 [Azure Pull Requests](https://docs.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=azure-devops&tabs=new-nav#complete-the-pull-request)
